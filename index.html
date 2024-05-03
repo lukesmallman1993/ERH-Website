@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Style CSS -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/><link rel="stylesheet">
   
   <!-- CDN Bootstrap 5 Framework CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -20,7 +21,7 @@
 
 <body>
   <div class="custom-container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent p-4 fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-scrolled">
       <div class="container">
 
         <!-- Logo -->
@@ -64,9 +65,49 @@
       <h1>Welcome to ERH</h1>
       <p>Coming soon.</p>
     </div>
-    <footer>
-      <p class="footer-des">In Production</p>
-    </footer>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <h6>About</h6>
+        <p class="text-justify">ERH Limited is not responsible for any errors or omissions, or for the results obtained from the use of this information. 
+        All information in this site is provided "as is", with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information.</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="#">What We Do</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+          <a href="#">ERH</a>.
+        </p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a class="twitter" href="https://twitter.com/ERH_UK" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="dribbble" href="mailto:info@erh.co.uk"><i class="fa fa-sharp fa-light fa-envelope"></i></a></li>
+          <li><a class="linkedin" href="https://www.linkedin.com/company/erh-construction/?trk=biz-companies-cym" target="_blank"><i class="fa fa-linkedin"></i></a></li>   
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
   </div>
 
   <!-- CDN Bootstrap Framework JS -->
@@ -77,8 +118,9 @@
     integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
     crossorigin="anonymous"></script>
 
-  <!-- js -->
-  <script  src="script.js"></script>
+    <!-- js -->
+    <script src="/assets/js/navbar.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
